@@ -1,0 +1,1290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="margin-top:0;padding:0;margin:0;background-color:rgb(8, 10, 16);">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+      /* START ENVELOPE CSS */
+      @media (max-width: 500px) {
+        /* Gmail iOS hack */
+        u+.body .inbox-fix,
+        u+.body .content-shell-table,
+        u+.body .footer-shell-table,
+        u+.body .footer {
+          min-width: calc(100vw - 8.5vw) !important;
+        }
+        .mobile-hide,
+        .ios-hide {
+          display: none !important;
+        }
+        .desktop-hide,
+        .desktop-hide img {
+          display: initial !important;
+        }
+        table.desktop-hide {
+          display: table !important;
+        }
+        .mobile-100w {
+          width: 100% !important;
+        }
+        .mobile-block {
+          display: block !important;
+        }
+        .mobile-left {
+          float: left !important;
+        }
+        .mobile-right {
+          float: right !important;
+        }
+        .mobile-center {
+          margin: 0 auto;
+          text-align: center !important;
+        }
+        .content-padding {
+          padding-left: 5.6% !important;
+          padding-right: 5.6% !important;
+        }
+        .inner-padding {
+          padding-left: 6% !important;
+          padding-right: 6% !important;
+        }
+        .outside-padding {
+          padding-left: 11.199999809265137% !important;
+          padding-right: 11.199999809265137% !important;
+        }
+      }
+      /*turn off border for iOS mobile*/
+      @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 500px) {
+        .container.main-border {
+          padding: 0 !important;
+        }
+        .content-shell {
+          border: none !important;
+        }
+      }
+      .hide,
+      .hide div,
+      .hide table,
+      .hide td,
+      .hide tr,
+      .hide a,
+      .hide img {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        line-height: 0 !important;
+        mso-hide: all !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
+      }
+      @media yahoo {
+        table {
+          border-collapse: collapse;
+          table-layout: fixed;
+        }
+        table table {
+          table-layout: auto;
+        }
+      }
+      * [data-term] {
+        border-bottom: none !important;
+        pointer-events: none !important;
+      }
+      .ii a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      table {
+        -wings-cellpadding: 0;
+        -wings-cellspacing: 0;
+        -wings-border: 0;
+        border-spacing: 0;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: none;
+        outline: none;
+        border-collapse: collapse;
+      }
+      .empty {
+        font-size: 0;
+        line-height: 0;
+      }
+      .desktop-hide,
+      .desktop-hide img,
+      .desktop-hide-max,
+      .desktop-hide-max img {
+        display: none;
+        mso-hide: all;
+      }
+      .content-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .inner-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .outer-radius {
+        border-radius: 8px;
+      }
+      .outside-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .inner-radius {
+        border-radius: 4px;
+      }
+      .gmail-fix-no-inline {
+        display: none;
+        display: none !important;
+      }
+      a {
+        color: inherit;
+      }
+      a img {
+        border-style: none;
+      }
+      .hide-link a,
+      .iosnonlink a,
+      .hide-link {
+        text-decoration: none !important;
+        cursor: text;
+      }
+      body,
+      .container,
+      html {
+        margin-top: 0;
+      }
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      /*Color Themes*/
+      body,
+      .container,
+      html,
+      .container-table {
+        background-color: #080A10;
+      }
+      .content-shell-table {
+        background-color: #111519;
+      }
+      /*Below 4 classes dynamically assigned via envelope prop for border*/
+      .container.main-border {
+        padding: 19px 0 20px 0;
+      }
+      .container.main-border .content-shell {
+        border: 2px solid #EAECED;
+        border-radius: 8px;
+      }
+      .container.main-border .content-shell-table {
+        border-radius: 8px;
+      }
+      .container.main-border #gem-footer {
+        border-radius: 0 0 8px 8px;
+      }
+      /*envelope styles*/
+      .footer-shell-table {
+        background-color: #111519;
+      }
+      @media (max-width: 499px) {
+        .mobile-hide-max,
+        .ios-hide-max {
+          display: none !important;
+        }
+        .inbox-fix {
+          display: none;
+        }
+        .desktop-hide-max,
+        .desktop-hide-max img {
+          display: initial !important;
+        }
+        table.content-shell-table,
+        table.footer-shell-table,
+        .footer {
+          width: 100% !important;
+        }
+      }
+      /* END ENVELOPE CSS */
+      .awesome {
+        font-family: "NetflixSans-Light", Helvetica;
+        font-size: 20px;
+        color: #FFFFFF;
+        line-height: 26px;
+      }
+      @media(max-width: 400px) {
+        .gem-spotlight-card .gem-background-content {
+          box-shadow: inset 31px 0px 43px 3px rgba(21, 26, 31, 0.55);
+        }
+        .gem-spotlight-card-rtl .gem-background-content {
+          box-shadow: inset -31px 0px 43px 3px rgba(21, 26, 31, 0.55);
+        }
+      }
+      .gem-copy-table {
+        width: 100%;
+      }
+      table.gem-dual-buttons-table a {
+        text-decoration: none;
+      }
+      .gem-dual-buttons {
+        border-radius: 4px;
+        text-decoration: none;
+        width: 100%;
+      }
+      .gem-button-copy a {
+        padding: 13px 40px;
+        text-align: center;
+        display: inline-block;
+      }
+      @media(max-width: 500px) {
+        .gem-button-copy a {
+          padding: 13px 0px !important;
+          width: 100% !important;
+        }
+      }
+      .gem-component-image-cell img {
+        display: block;
+      }
+      @media only screen and (max-width: 500px) {
+        .gem-component-image-cell img {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+      .gem-spotlight-card-table,
+      .gem-spotlight-card-td,
+      .gem-spotlight-card-shell,
+      .gem-spotlight-card,
+      .gem-spotlight-card .gem-background-background,
+      .gem-spotlight-card-rtl,
+      .gem-spotlight-card-rtl .gem-background-background {
+        border-radius: 8px;
+      }
+      .gem-spotlight-card .gem-background-background {
+        background-position: top right;
+      }
+      .gem-spotlight-card-rtl .gem-background-background {
+        background-position: top left;
+      }
+      .spotlight-card-padding {
+        padding-left: 20px;
+        padding-right: 80px;
+      }
+      .spotlight-card-padding-rtl {
+        padding-right: 20px;
+        padding-left: 80px;
+      }
+      @media(max-width: 500px) {
+        .spotlight-card-padding {
+          padding-left: 6% !important;
+          padding-right: 10% !important;
+        }
+        .spotlight-card-padding-rtl {
+          padding-right: 6% !important;
+          padding-left: 10% !important;
+        }
+      }
+      /* Background Image */
+      @media (max-width: 499px) {
+        .gem-background,
+        .gem-background-content {
+          width: 100% !important;
+        }
+        .gem-background-background {
+          background-repeat: no-repeat;
+          background-position: center top;
+          width: 100%;
+          height: inherit;
+          max-height: 700px;
+        }
+      }
+      .gem-divider-bar-td {
+        padding: 20px 0 20px 0;
+      }
+      .gem-divider-bar-spacer,
+      .gem-divider-bar,
+      .gem-divider-bar-left-spacer,
+      .gem-divider-bar-left {
+        line-height: 0;
+        font-size: 0;
+      }
+      .gem-divider-bar-spacer,
+      .gem-divider-bar,
+      .gem-divider-bar-left-spacer {
+        height: 1px;
+      }
+      .gem-divider-bar-spacer {
+        width: 45%;
+      }
+      .gem-divider-bar {
+        width: 10%;
+        border-radius: 10px;
+        box-shadow: 0 15px 10px -15px rgba(34, 31, 31, 0.50);
+      }
+      .gem-divider-bar {
+        width: 10%;
+        border-radius: 10px;
+        box-shadow: 0 15px 10px -15px rgba(34, 31, 31, 0.50);
+      }
+      .gem-footer .icon {
+        padding-right: 22px;
+      }
+      .gem-footer .icon.nonMember {
+        padding-bottom: 20px;
+      }
+      .gem-footer .address {
+        padding-bottom: 20px;
+      }
+      .gem-footer .footer-links {
+        padding-bottom: 20px;
+      }
+      #gem-footer .questions,
+      #gem-footer .footer-links a {
+        font-family: NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-weight: 500;
+      }
+      .gem-footer .footer-links a {
+        font-family: NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        text-decoration: underline;
+      }
+      #gem-footer .gem-legal,
+      .gem-legal a,
+      #gem-footer .hide-link,
+      #gem-footer .hide-link a,
+      #gem-footer .footer-links a,
+      #gem-footer .footer-links,
+      #gem-footer .questions,
+      #gem-footer .questions a {
+        color: #A9A6A6;
+      }
+      .gem-legal a {
+        text-decoration: underline;
+      }
+      #gem-footer .address {
+        color: #A9A6A6;
+        text-decoration: none !important;
+        cursor: text;
+      }
+      /*Conditional elements CSS*/
+      .gem-legal.legal-top,
+      .gem-legal.legal-bottom {
+        padding-bottom: 20px;
+      }
+      @media (max-width: 499px) {
+        .gem-footer {
+          width: 100% !important;
+        }
+      }
+      @media (max-width: 500px) {
+        .gem-footer .outer-padding {
+          padding: 0 5.6% !important;
+        }
+      }
+      .spacer {
+        font-size: 0;
+        line-height: 0;
+      }
+      @media (max-width: 500px) {
+        .mobile-block {
+          display: block !important;
+        }
+      }
+      /**** Global Font Styles ****/
+      .gem-h0,
+      .gem-h1,
+      .gem-h2,
+      .gem-h3,
+      .gem-h4,
+      .gem-h5,
+      .gem-h6,
+      .eyebrow {
+        font-family: NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-weight: 700;
+      }
+      .gem-p1,
+      .gem-p2,
+      .gem-legal,
+      .gem-p3 {
+        font-family: NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-weight: 300;
+      }
+      .gem-h0 {
+        font-size: 44px;
+        line-height: 53px;
+        letter-spacing: -1px;
+      }
+      .gem-h1 {
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: -1px;
+      }
+      .gem-h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -0.75px;
+      }
+      .gem-h3 {
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -0.5px;
+      }
+      .gem-h4 {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.35px;
+      }
+      .gem-h5 {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.2px;
+      }
+      .eyebrow {
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: -0.25px;
+      }
+      .gem-p1 {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.25px;
+      }
+      .gem-p2 {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.12px;
+      }
+      .gem-legal,
+      .gem-p3 {
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: -0.1px;
+      }
+      /* Ability to override mobile styles declared in content scripts */
+      @media screen {
+        @font-face {
+          font-family: NetflixSans-Medium;
+          src: url('https://assets.nflxext.com/us/email/fonts/NetflixSans-Medium-Opt.woff2');
+        }
+        @font-face {
+          font-family: NetflixSans-Light;
+          src: url('https://assets.nflxext.com/us/email/fonts/NetflixSans-Light-Opt.woff2');
+        }
+        @font-face {
+          font-family: NetflixSans-Bold;
+          src: url('https://assets.nflxext.com/us/email/fonts/NetflixSans-Bold-Opt.woff2');
+        }
+      }
+    </style>
+  </head>
+  <body class="body" style="margin-top:0;padding:0;margin:0;background-color:rgb(8, 10, 16);"> <!--/* 100% Size Container -->
+
+    <!-- Preview Text -->
+    <div class="hide" style="display:none;width:0;height:0;max-height:0;line-height:0;mso-hide:all;overflow:hidden;visibility:hidden;">
+      The witcher Geralt, a mutated monster-hunter, struggles to find his place in a world where people often prove more wicked than beasts.
+
+      <!-- preview text hack -->
+      <div class="hide" style="display: none; max-height: 0px; overflow:hidden;display:none;width:0;height:0;max-height:0;line-height:0;mso-hide:all;overflow:hidden;visibility:hidden;">
+        &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+      </div>
+    </div>
+
+    <!-- End Preview Text -->
+    <table class="container-table -important" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;background-color:rgb(8, 10, 16);">
+      <tbody>
+        <tr>
+          <td class="container " align="center" style="margin-top:0;background-color:rgb(8, 10, 16);"> <!--/* Hero + Content -->
+            <table class="content-shell-table" width="500" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;background-color:rgb(17, 21, 25);">
+              <tbody>
+                <tr>
+                  <td>
+
+                    <!--legal_content_footer--> <img src="http://beacon.netflix.com/img/BAQgBEAEa0AJ2THSsgosiINnMMOKPnivWKSK-WmHHLwvtmTf2TDI_GvIodQ_BC3ECFW2pB4Rc0SbScPow26_TcJMa21ANRLkYIMlV1trfFzYiEboJqf0I22pwflIoA5vrr8DH3kSwgncpPfrpQcrN4Vq4gmLoT3d2nZd_Ai7NaAmmLlc08ZyxPwWsLhcwiAaWsGNH6Pe9mToD36cSC7MdiDWtjSv1WsDaPEBg0_D4ycPIzzsgOpgZux-XPyNE_rpjwppozza8XE378O_kVLVXQkkYrpmZ2iR-fl5GA_xgn306smGgsaFopOSKoQpdEeO9Bl8LiIRbq48DyoeO_99W-CPR5fBhmE4QG4OKuYc9AdF4KNZz2Tdi8ndHv5Jj3Ee0B_CKarRKgRuGNiv3090rHQsf8L-hsfPHLV1JBefff1hxCqoAtTuA5c8nqPt2uXDlE3_yi2j82r4." style="display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;" border="0"> </td>
+                </tr> <!--/* Content -->
+                <tr>
+                  <td class="content-shell" align="center">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-background-shell">
+                            <table class="gem-background-table _none" width="100%" height="728" style="min-height:728px;height:728px;max-height:728px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-background-background" bgcolor="#111519" style="overflow:hidden;background-repeat: no-repeat;background-size:contain;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/hero.jpg" valign="top">
+
+                                    <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:500px;height:728px;">
+              <v:fill type="frame" src="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/hero.jpg" color="#111519" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+                                    <div>
+                                      <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                              <!-- Spacer -->
+                                              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="spacer-1 spacer" style="padding: 390px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+
+                                              <!-- End Spacer -->
+                                              <table class="gem-component-image" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="gem-component-image-cell content-padding" align="center" style="padding-top:20px;padding-left:20px;padding-right:20px;"> <a href="https://www.netflix.com/title/80189685?trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=hero_logo" target="_blank" style="color:inherit;"> <img alt="The Witcher" src="https://dnm.nflximg.net/api/v6/n6T0vlTccejvjnTlICHzHgzbFd0/AAAAC6F3yGc7EWbs2oXchpxNIvXKX5jouTIl9QF3a-5-IdzbOsrShEB6kCDn67N8W2nhqUI4looz9hPqaWYNgu0Rfwud-fq2VHUn3MSEgp2CIxb_HgHSDW3L0KlpcQShEckiJ-TZn-xcvU6qfbxJUKrFassutD53zrun-NWUBg.png?r=286" width="400" border="0" style="border-radius:0px;box-shadow:none;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;"> </a> </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <table class="gem-copy-table" align="center" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="gem-copy gem-h5 content-padding" align="center" style="padding-top:20px; color:#ffffff;padding-left:20px;padding-right:20px;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> The witcher Geralt, a mutated monster-hunter, struggles to find his place in a world where people often prove more wicked than beasts. </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <table class="gem-dual-buttons-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="gem-dual-buttons-outer-cell content-padding" style="padding-top:20px;padding-left:20px;padding-right:20px;" align="center">
+                                                      <table class="gem-dual-buttons-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                        <tbody>
+                                                          <tr>
+                                                            <td width="48%">
+                                                              <table class="gem-dual-buttons shell-1" bgcolor="#82A6B7" style="border:solid 2px #82A6B7;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;" align="center" height="42"> <a href="https://www.netflix.com/watch/80189685?trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=topPlayButton" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;"> <img class="image-icon-play" src="http://cdn.nflximg.com/us/email/gem/icons/icon_play_white.png" height="11" border="0" style="display:inline;height:11px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">&nbsp;Play </a> </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </td>
+                                                            <td width="3%"> <img src="https://assets.nflxext.com/us/email/spacer.gif" width="3%" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;"> </td>
+                                                            <td width="48%">
+                                                              <table class="gem-dual-buttons shell-2" bgcolor="#383B43" style="border:solid 2px #383B43;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;" align="center" height="42"> <a href="https://www.netflix.com/add/80189685?msg_token=EQIAmQABAYEAC%2FFKwC0DYf90NHtnfU0MxUKWhSgNVrXrxtDIAtnc4lgBGVO3xujNjZyhu%2B2%2BV8PWz8XGkeaAxuZnXnUuHdqGvakYbkSU0VuneI89FNXvSG8849csrYnNdGNYjjXz0SwPi5Kp1gYj0jnMvawUsowOOnjAb1z%2B0zeISGFGhdoln5q8Y9pJH0zohSRx%2BeKpS2fG%2BjlAzERLC9dWCk570O7uQQXK3A7Ufmn%2BMTPzgRvjP3k%2BmRdid2ndHX68kuqFPEWG4PQB%2BK0FsWoEKTdBwo%2FTBx1%2FngU6MgOqPwuyFmG9eyzCaMGX4MhckW8naLpaITqZRbq0icc8KNrYYtoYAm%2FAQNaMmmU%3D&amp;trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=topAddButton" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;"> + My List </a> </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+
+                                    <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-background-shell">
+                            <table class="gem-background-table _none" width="100%" height="549" style="min-height:549px;height:549px;max-height:549px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-background-background" bgcolor="#111519" style="overflow:hidden;background-repeat: no-repeat;background-size:contain;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/map.jpg" valign="top">
+                                    <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                            <!-- Spacer -->
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="spacer-2 spacer" style="padding: 50px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- End Spacer -->
+                                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-copy eyebrow content-padding" align="left" style="padding-top:20px; color:#82A6B7;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:10px;line-height:13px;letter-spacing:-0.25px;"> THE JOURNEY BEGINS </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-copy gem-h2 content-padding" align="left" style="padding-top:0; color:#ffffff;padding-left:20px;padding-right:20px;font-size:30px;line-height:36px;letter-spacing:-0.75px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> Explore the world<br>of The Witcher </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table id="gem-spotlight-card-table" class="gem-spotlight-card-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:8px;border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-spotlight-card-td " style="padding: 20px 20px 0 20px;border-radius:8px;">
+                                                    <table id="gem-spotlight-card-shell" class="gem-spotlight-card-shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:8px;border-spacing:0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-spotlight-card" style="background-color:#151A1F;border-radius:8px;">
+                                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td class="gem-background-shell"> <a href="https://www.netflix.com/title/80189685?trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=geralt" style="text-decoration:none !important;color:inherit;">
+                                                                      <table class="gem-background-table _none" width="100%" height="334" style="min-height:334px;height:334px;max-height:334px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="gem-background-background" bgcolor="#151A1F" style="overflow:hidden;background-repeat: no-repeat;background-size:auto;border-radius:8px;background-position:top right;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/012/geralt.jpg" valign="top">
+
+                                                                              <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:460px;height:334px;">
+              <v:fill type="frame" src="https://assets.nflxext.com/us/email/stsu/r_d/wit/012/geralt.jpg" color="#151A1F" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+                                                                              <div>
+                                                                                <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                  <tbody>
+                                                                                    <tr>
+                                                                                      <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                                                                        <!-- Spacer -->
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="spacer-3 spacer" style="padding: 142px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- End Spacer -->
+                                                                                        <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-copy gem-h2 inner-padding" align="left" style="padding-top:0; color:#ffffff;padding-left:20px;padding-right:20px;font-size:30px;line-height:36px;letter-spacing:-0.75px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> Geralt<br>of Rivia </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <table id="gem-divider-bar-table" class="gem-divider-bar-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-divider-bar-td" style="padding:20px 0 20px 0;">
+                                                                                                <table id="gem-divider-bar-shell" class="gem-divider-bar-shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                                  <tbody>
+                                                                                                    <tr>
+                                                                                                      <td class="gem-divider-bar-left-spacer" align="left" width="20" style="line-height:0;font-size:0;height:1px;"> &nbsp; </td>
+                                                                                                      <td class="gem-divider-bar-left" align="left" width="31" style="background-color: #82A6B7;height:2px;line-height:0;font-size:0;"> &nbsp; </td>
+                                                                                                      <td class="gem-divider-bar-left-spacer" align="left" style="line-height:0;font-size:0;height:1px;"> &nbsp; </td>
+                                                                                                    </tr>
+                                                                                                  </tbody>
+                                                                                                </table>
+                                                                                              </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-copy gem-h5 spotlight-card-padding" align="left" style="padding-top:0; color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;padding-left:20px;padding-right:80px;"> Witcher Geralt hunts monsters for coin amid society's scorn. But when one decision changes his destiny, he must reconsider his purpose on the Continent. </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- Spacer -->
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="spacer-4 spacer" style="padding: 30px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- End Spacer -->
+                                                                                      </td>
+                                                                                    </tr>
+                                                                                  </tbody>
+                                                                                </table>
+                                                                              </div>
+
+                                                                              <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+                                                                            </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+                                                                    </a> </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table id="gem-spotlight-card-table" class="gem-spotlight-card-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:8px;border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-spotlight-card-td " style="padding: 20px 20px 0 20px;border-radius:8px;">
+                                                    <table id="gem-spotlight-card-shell" class="gem-spotlight-card-shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:8px;border-spacing:0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-spotlight-card" style="background-color:#151A1F;border-radius:8px;">
+                                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td class="gem-background-shell"> <a href="https://www.netflix.com/title/80189685?trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=yennefer" style="text-decoration:none !important;color:inherit;">
+                                                                      <table class="gem-background-table _none" width="100%" height="334" style="min-height:334px;height:334px;max-height:334px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="gem-background-background" bgcolor="#151A1F" style="overflow:hidden;background-repeat: no-repeat;background-size:auto;border-radius:8px;background-position:top right;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/012/yennefer.jpg" valign="top">
+
+                                                                              <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:460px;height:334px;">
+              <v:fill type="frame" src="https://assets.nflxext.com/us/email/stsu/r_d/wit/012/yennefer.jpg" color="#151A1F" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+                                                                              <div>
+                                                                                <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                  <tbody>
+                                                                                    <tr>
+                                                                                      <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                                                                        <!-- Spacer -->
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="spacer-5 spacer" style="padding: 142px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- End Spacer -->
+                                                                                        <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-copy gem-h2 inner-padding" align="left" style="padding-top:0; color:#ffffff;padding-left:20px;padding-right:20px;font-size:30px;line-height:36px;letter-spacing:-0.75px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> Yennefer of<br>Vengerberg </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <table id="gem-divider-bar-table" class="gem-divider-bar-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-divider-bar-td" style="padding:20px 0 20px 0;">
+                                                                                                <table id="gem-divider-bar-shell" class="gem-divider-bar-shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                                  <tbody>
+                                                                                                    <tr>
+                                                                                                      <td class="gem-divider-bar-left-spacer" align="left" width="20" style="line-height:0;font-size:0;height:1px;"> &nbsp; </td>
+                                                                                                      <td class="gem-divider-bar-left" align="left" width="31" style="background-color: #82A6B7;height:2px;line-height:0;font-size:0;"> &nbsp; </td>
+                                                                                                      <td class="gem-divider-bar-left-spacer" align="left" style="line-height:0;font-size:0;height:1px;"> &nbsp; </td>
+                                                                                                    </tr>
+                                                                                                  </tbody>
+                                                                                                </table>
+                                                                                              </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-copy gem-h5 spotlight-card-padding" align="left" style="padding-top:0; color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;padding-left:20px;padding-right:80px;"> Abandoned as a child, sorceress Yennefer embraces being an outcast. Can she accept the love of others and learn that her power is more than skin-deep? </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- Spacer -->
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="spacer-6 spacer" style="padding: 30px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- End Spacer -->
+                                                                                      </td>
+                                                                                    </tr>
+                                                                                  </tbody>
+                                                                                </table>
+                                                                              </div>
+
+                                                                              <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+                                                                            </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+                                                                    </a> </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table id="gem-spotlight-card-table" class="gem-spotlight-card-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:8px;border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-spotlight-card-td " style="padding: 20px 20px 0 20px;border-radius:8px;">
+                                                    <table id="gem-spotlight-card-shell" class="gem-spotlight-card-shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-radius:8px;border-spacing:0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-spotlight-card" style="background-color:#151A1F;border-radius:8px;">
+                                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td class="gem-background-shell"> <a href="https://www.netflix.com/title/80189685?trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=cirilla" style="text-decoration:none !important;color:inherit;">
+                                                                      <table class="gem-background-table _none" width="100%" height="334" style="min-height:334px;height:334px;max-height:334px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="gem-background-background" bgcolor="#151A1F" style="overflow:hidden;background-repeat: no-repeat;background-size:auto;border-radius:8px;background-position:top right;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/012/ciri.jpg" valign="top">
+
+                                                                              <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:460px;height:334px;">
+              <v:fill type="frame" src="https://assets.nflxext.com/us/email/stsu/r_d/wit/012/ciri.jpg" color="#151A1F" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+                                                                              <div>
+                                                                                <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                  <tbody>
+                                                                                    <tr>
+                                                                                      <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                                                                        <!-- Spacer -->
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="spacer-7 spacer" style="padding: 142px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- End Spacer -->
+                                                                                        <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-copy gem-h2 inner-padding" align="left" style="padding-top:0; color:#ffffff;padding-left:20px;padding-right:20px;font-size:30px;line-height:36px;letter-spacing:-0.75px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> <br>Cirilla </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <table id="gem-divider-bar-table" class="gem-divider-bar-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-divider-bar-td" style="padding:20px 0 20px 0;">
+                                                                                                <table id="gem-divider-bar-shell" class="gem-divider-bar-shell" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                                  <tbody>
+                                                                                                    <tr>
+                                                                                                      <td class="gem-divider-bar-left-spacer" align="left" width="20" style="line-height:0;font-size:0;height:1px;"> &nbsp; </td>
+                                                                                                      <td class="gem-divider-bar-left" align="left" width="31" style="background-color: #82A6B7;height:2px;line-height:0;font-size:0;"> &nbsp; </td>
+                                                                                                      <td class="gem-divider-bar-left-spacer" align="left" style="line-height:0;font-size:0;height:1px;"> &nbsp; </td>
+                                                                                                    </tr>
+                                                                                                  </tbody>
+                                                                                                </table>
+                                                                                              </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+                                                                                        <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="gem-copy gem-h5 spotlight-card-padding" align="left" style="padding-top:0; color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;padding-left:20px;padding-right:80px;"> Cintra’s princess possesses a mysterious power that extends beyond the throne. Now, she must learn to find her voice and survive on her own terms. </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- Spacer -->
+                                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                                          <tbody>
+                                                                                            <tr>
+                                                                                              <td class="spacer-8 spacer" style="padding: 30px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                        </table>
+
+                                                                                        <!-- End Spacer -->
+                                                                                      </td>
+                                                                                    </tr>
+                                                                                  </tbody>
+                                                                                </table>
+                                                                              </div>
+
+                                                                              <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+                                                                            </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+                                                                    </a> </td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Spacer -->
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="spacer-9 spacer" style="padding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- End Spacer -->
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="_none">
+                            <table class="gem-gradient-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-gradient-background" bgcolor="#1C242B" style="overflow:hidden;background-color:#1C242B;background-image: linear-gradient(#1C242B, #111519 150px);" valign="top">
+                                    <table class="gem-gradient-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-gradient-content" align="center" height="100%" width="100%">
+
+                                            <!-- Spacer -->
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="spacer-10 spacer" style="padding: 60px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- End Spacer -->
+                                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-copy eyebrow content-padding" align="left" style="padding-top:20px; color:#82A6B7;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:10px;line-height:13px;letter-spacing:-0.25px;"> PREPARE FOR MORE </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-copy gem-h2 content-padding" align="left" style="padding-top:0; color:#ffffff;padding-left:20px;padding-right:20px;font-size:30px;line-height:36px;letter-spacing:-0.75px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> Did you know? </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- Spacer -->
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="spacer-11 spacer" style="padding: 45px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- End Spacer -->
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="gem-background-shell">
+                                                    <table class="gem-background-table content-padding" width="100%" height="374" style="min-height:374px;height:374px;max-height:374px;padding-left:20px;padding-right:20px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-background-background" bgcolor="#111519" style="overflow:hidden;background-repeat: no-repeat;border-radius: 8px;background-size:cover;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/swords.jpg" valign="top">
+
+                                                            <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:460px;height:374px;">
+              <v:fill type="frame" src="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/swords.jpg" color="#111519" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+                                                            <div>
+                                                              <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                                                      <!-- Spacer -->
+                                                                      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="spacer-12 spacer" style="padding: 120px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+
+                                                                      <!-- End Spacer -->
+                                                                      <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="gem-copy gem-h1 inner-padding" align="left" style="padding-top:20px; color:#ffffff;padding-left:20px;padding-right:20px;font-size:36px;line-height:43px;letter-spacing:-1px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> A new chapter is coming </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+                                                                      <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="gem-copy awesome inner-padding" align="left" style="padding-top:20px; color:#ffffff;padding-left:20px;padding-right:20px;font-family:&quot;NetflixSans-Light&quot;, Helvetica;font-size:20px;color:rgb(255, 255, 255);line-height:26px;"> Embrace the magic, mayhem and more as “The Witcher” will return for Season 2. </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+
+                                                                      <!-- Spacer -->
+                                                                      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                                        <tbody>
+                                                                          <tr>
+                                                                            <td class="spacer-13 spacer" style="padding: 120px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                                          </tr>
+                                                                        </tbody>
+                                                                      </table>
+
+                                                                      <!-- End Spacer -->
+                                                                    </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </div>
+
+                                                            <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- Spacer -->
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="spacer-14 spacer" style="padding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+
+                                            <!-- End Spacer -->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-background-shell">
+                            <table class="gem-background-table _none" width="100%" height="549" style="min-height:549px;height:549px;max-height:549px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-background-background" bgcolor="#111519" style="overflow:hidden;background-repeat: no-repeat;background-size:cover;" background="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/castle.jpg" valign="top">
+
+                                    <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:500px;height:549px;">
+              <v:fill type="frame" src="https://assets.nflxext.com/us/email/stsu/r_d/wit/011/castle.jpg" color="#111519" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
+                                    <div>
+                                      <table class="gem-background-content-table" align="center" height="100%" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="gem-background-content" align="center" height="100%" width="100%">
+
+                                              <!-- Spacer -->
+                                              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="spacer-15 spacer" style="padding: 120px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+
+                                              <!-- End Spacer -->
+                                              <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="gem-copy eyebrow content-padding" align="left" style="padding-top:20px; color:#82A6B7;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:10px;line-height:13px;letter-spacing:-0.25px;"> THE JOURNEY CONTINUES </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="gem-copy gem-h3 inner-padding" align="left" style="padding-top:0; color:#ffffff;padding-left:20px;padding-right:20px;font-size:24px;line-height:29px;letter-spacing:-0.5px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;"> Follow Your Destiny </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <table class="gem-dual-buttons-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="gem-dual-buttons-outer-cell content-padding" style="padding-top:20px;padding-left:20px;padding-right:20px;" align="center">
+                                                      <table class="gem-dual-buttons-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                                        <tbody>
+                                                          <tr>
+                                                            <td width="48%">
+                                                              <table class="gem-dual-buttons shell-1" bgcolor="#82A6B7" style="border:solid 2px #82A6B7;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;" align="center" height="42"> <a href="https://www.netflix.com/watch/80189685?trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=bottomPlayButton" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;"> <img class="image-icon-play" src="http://cdn.nflximg.com/us/email/gem/icons/icon_play_white.png" height="11" border="0" style="display:inline;height:11px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">&nbsp;Play </a> </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </td>
+                                                            <td width="3%"> <img src="https://assets.nflxext.com/us/email/spacer.gif" width="3%" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;"> </td>
+                                                            <td width="48%">
+                                                              <table class="gem-dual-buttons shell-2" bgcolor="#383B43" style="border:solid 2px #383B43;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-size:14px;line-height:17px;letter-spacing:-0.2px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;" align="center" height="42"> <a href="https://www.netflix.com/add/80189685?msg_token=EQIAmQABAYEAC%2FFKwC0DYf90NHtnfU0MxUKWhSgNVrXrxtDIAtnc4lgBGVO3xujNjZyhu%2B2%2BV8PWz8XGkeaAxuZnXnUuHdqGvakYbkSU0VuneI89FNXvSG8849csrYnNdGNYjjXz0SwPi5Kp1gYj0jnMvawUsowOOnjAb1z%2B0zeISGFGhdoln5q8Y9pJH0zohSRx%2BeKpS2fG%2BjlAzERLC9dWCk570O7uQQXK3A7Ufmn%2BMTPzgRvjP3k%2BmRdid2ndHX68kuqFPEWG4PQB%2BK0FsWoEKTdBwo%2FTBx1%2FngU6MgOqPwuyFmG9eyzCaMGX4MhckW8naLpaITqZRbq0icc8KNrYYtoYAm%2FAQNaMmmU%3D&amp;trkid=13710079&amp;MSG_TITLE=80189685&amp;lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=bottomAddButton" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;"> + My List </a> </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+
+                                    <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table id="gem-footer" class="gem-footer mobile-100w" bgcolor="#111519" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="content-padding" style="padding-top:40px;padding-left:20px;padding-right:20px;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="icon" width="1%" valign="top" style="padding-right:22px;"> <a href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=URL_HOME" target="_blank" style="color:inherit;"> <img alt="Netflix" src="http://cdn.nflximg.com/us/email/gem/nflx.png" width="24" border="0" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;"> </a> </td>
+                                  <td>
+                                    <table class="footer-shell" width="100%" valign="top" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-p1 questions" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;color:rgb(169, 166, 166);"> Questions? Call 1-866-579-7172 </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-legal address" style="font-size:11px;line-height:14px;letter-spacing:-0.1px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb(169, 166, 166);text-decoration:none;cursor:text;color:rgb(169, 166, 166);padding-bottom:20px;"> <span class="hide-link" style="text-decoration:none;cursor:text;color:rgb(169, 166, 166);"><a href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=URL_HOME_2" style="text-decoration:none;cursor:text;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">100 Winchester Circle, Los Gatos, CA 95032, U.S.A.</a></span> </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="footer-links" style="padding-bottom:20px;color:rgb(169, 166, 166);"> <a class="footer-link nowrap" href="https://www.netflix.com/" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Unsubscribe</a><br><a class="footer-link nowrap" href="https://www.netflix.com/TermsOfUse?lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=URL_TERMS" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Terms of Use</a><br><a class="footer-link nowrap" href="https://www.netflix.com/PrivacyPolicy?lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=URL_PRIVACY" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Privacy</a><br><a class="footer-link nowrap" href="https://help.netflix.com/help?lnktrk=EMP&amp;g=783925740E0C25D47C6C32C01ADCD2646452AC29&amp;lkid=URL_HELP_3" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Help Center</a> </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-legal mail-to" style="font-size:11px;line-height:14px;letter-spacing:-0.1px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb(169, 166, 166);"> This message was mailed to <span class="hide-link" style="text-decoration:none;cursor:text;color:rgb(169, 166, 166);"><a href="https://www.netflix.com/" style="text-decoration:none;cursor:text;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">[<span class="__cf_email__" data-cfemail="cba3aea7a7a48ba6aabfbfa3aebcb8a6a2bfa3e5a8a8">[email&#160;protected]</span>]</a></span> by Netflix as part of your Netflix&nbsp;membership.<br> SRC: <a href="https://www.netflix.com/" class="footer-no-link hide-link" style="text-decoration:none;cursor:text;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">15693_en_US</a> </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- Spacer -->
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="spacer-16 spacer" style="padding: 40px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- End Spacer -->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Fix for Gmail on iOS -->
+    <div class="mobile-hide-max gmail-fix-no-inline" style="white-space:nowrap; font:15px courier; line-height:0;">
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+  </body>
+</html>
